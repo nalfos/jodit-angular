@@ -11,13 +11,11 @@ export class AppComponent {
   content = '<h1>Hello world</h1>';
 
   config = {
-    // readonly: false,
-    // toolbarAdaptive: false,
-    // useAceEditor: false,
-    // sourceEditor: 'area'
-    // buttons: [
-    //     'source'
-    // ]
+    readonly: false,
+    toolbarAdaptive: false,
+    useAceEditor: false,
+    sourceEditor: 'area'
+
   };
 
   handleEvent($event: any) {
