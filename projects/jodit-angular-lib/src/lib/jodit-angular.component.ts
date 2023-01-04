@@ -27,7 +27,7 @@ const CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR: Provider = {
   selector: "jodit-editor",
   template: ` <ng-template></ng-template>`,
   encapsulation: ViewEncapsulation.None,
-  styleUrls: ["../../../../node_modules/jodit/build/jodit.min.css"],
+  styleUrls: ["../../../../node_modules/jodit/build/jodit.es2018.min.css"],
   providers: [CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR],
 })
 export class JoditAngularComponent
